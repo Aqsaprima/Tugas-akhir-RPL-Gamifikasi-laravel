@@ -1,0 +1,84 @@
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    flex-direction: column;
+    color: white;
+    font-size: 1.35rem;
+    text-align: justify;
+}
+#judul {
+    width: 46vw;
+    height: 14vh;
+    text-align: center;
+    padding: 3vh 12vw;
+    overflow: scroll;
+}
+#soal {
+    display: flex;
+    width: 70vw;
+    height: 60vh;
+    gap: 2vw;
+}
+#soal1,
+#soal2 {
+    flex: 1;
+    padding: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.soal::-webkit-scrollbar{
+    display: none;
+}
+.soal {
+    overflow: scroll;
+}
+.bg {
+    background: #0000009d;
+    border-radius: 20px;
+}
+h3,
+p {
+    margin: 0;
+}
+h3 {
+    text-align: center;
+}
+input[type="submit"] {
+    border: none;
+    border-radius: 30vw;
+    background: green;
+    width: 10vw;
+    font-size: 1.4rem;
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+}
+#soal2 .soal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+#kode {
+    width: 90%;
+    height: 30vh;
+    border-radius: 10px;
+    padding: 5px 0 5px 5px;
+}
+#pilgan{
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}

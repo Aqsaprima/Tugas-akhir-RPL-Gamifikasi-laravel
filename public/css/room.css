@@ -1,0 +1,36 @@
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#inst {
+    color: white;
+    position: absolute;
+    right: 3vw;
+    top: 3vh;
+    font-size: 1.5rem;
+    background: #444c;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#pintu {
+    position: absolute;
+    left: 35vw;
+    top: 11vh;
+    width: 33vw;
+    height: 46vh;
+    opacity: 0;
+    cursor: pointer;
+}
+#buku {
+    position: absolute;
+    left: 50vw;
+    top: 61vh;
+    width: 16vw;
+    height: 15vh;
+    opacity: 0;
+    cursor: pointer;
+}

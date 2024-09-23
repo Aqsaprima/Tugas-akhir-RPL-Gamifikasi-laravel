@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('levels', function (Blueprint $table) {
+            $table->id();
+            $table->string('judul');
+            $table->integer('power');
+            $table->string('img');
+            $table->string('token');
+            $table->string('materi');
+            $table->string('soal');
+            $table->string('jwbA');
+            $table->string('jwbB');
+            $table->string('jwbC');
+            $table->string('jwbD');
+            $table->string('jwbBenar');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('levels');
+    }
+};

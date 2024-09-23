@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#tulisan {
+    background: black;
+    border: 1px white solid;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 90vw;
+    padding: 3vh 5vw;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+#tulisan p {
+    margin: 0;
+}
+#tulisan > p {
+    max-height: 15vh;
+}
+#bos {
+    width: 35vw;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+#next,
+#prev {
+    cursor: pointer;
+}
+#jurus {
+    display: none;
+    width: 100vw;
+    margin-top: 3vh;
+}
+#jurus > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#elemen {
+    justify-content: space-between !important;
+}
+#jurus img {
+    width: 7vw;
+    height: 7vw;
+    cursor: pointer;
+}

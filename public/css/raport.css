@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+#logo {
+    width: 6vw;
+}
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#main {
+    background: #0000009d;
+    border-radius: 20px;
+    padding: 4vh 2vw;
+    border: 1px solid white;
+}
+#main p {
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+}
+#judul {
+    font-size: 2rem !important;
+    margin-bottom: 4vh !important;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.list img {
+    width: 2vw;
+}
+#cont {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    gap: 2vh;
+    overflow: scroll;
+    width: 70vw;
+    align-items: start;
+}
+.npm {
+    width: 40vw;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+form {
+    flex-direction: row;
+}
+.hide{
+    display: none;
+}

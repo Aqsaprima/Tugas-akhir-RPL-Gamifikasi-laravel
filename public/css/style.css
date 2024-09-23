@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: "Jersey 15", sans-serif;
+}
+a button,
+input[type="submit"] {
+    cursor: pointer;
+}

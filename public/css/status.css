@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+img {
+    position: absolute;
+    width: 8vw;
+    top: 8vh;
+    left: 46vw;
+}
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#main {
+    background: url("/img/scroll.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 6vh;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+}
+progress::-webkit-progress-bar {
+    background-color: white;
+    width: 100%;
+}
+progress {
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    height: 5vh;
+    width: 25vw;
+}
+progress::-webkit-progress-value {
+    background-color: #ad00ff !important;
+}
+progress::-moz-progress-bar {
+    background-color: #ad00ff !important;
+}
+#main div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+}
+#main div label:first-child {
+    width: 80px;
+}
+.pil {
+    background: #f18827;
+    color: white;
+    width: 15vw;
+    height: 7vh;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: black 0 0 5px;
+    cursor: pointer;
+    font-family: "Jersey 15", sans-serif;
+}

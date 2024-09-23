@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+#logo {
+    position: absolute;
+    width: 8vw;
+    top: 8vh;
+    left: 46vw;
+}
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#main {
+    background: url("/img/scroll.png");
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 4vh;
+}
+.pil {
+    background: #f18827;
+    color: white;
+    width: 13vw;
+    height: 5vh;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: black 0 0 5px;
+    cursor: pointer;
+    font-family: "Jersey 15", sans-serif;
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+}
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+}
+.nogap {
+    gap: 0 !important;
+}
+.logoMateri {
+    width: 4vw;
+    height: 4vw;
+}
+#main p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+#row {
+    width: 35vw;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+#kotak1,
+#kotak2,
+#kotak3,
+#Kotak4 {
+    width: 17vw;
+}
+.flexCol p {
+    color: red;
+}
+.flexCol p:first-child {
+    color: white;
+}
+input {
+    width: 14vw;
+    border-radius: 20px;
+    border: none;
+    height: 4vh;
+    text-align: center;
+}
+.check {
+    width: 4vh;
+    height: 4vh;
+}
+.flexRow a {
+    display: flex;
+}
+.hide{
+    display: none;
+}
+label {
+    display: flex;
+    cursor: pointer;
+  }

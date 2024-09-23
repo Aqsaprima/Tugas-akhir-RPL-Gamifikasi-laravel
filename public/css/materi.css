@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+#main {
+    background: url("/img/scroll.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 4vh;
+    color: white;
+}
+#main p {
+    font-size: 2.5rem;
+    margin: 0;
+}
+#judul {
+    margin-top: 24vh !important;
+}
+.pil {
+    background: #f18827;
+    color: white;
+    width: 15vw;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: black 0 0 5px;
+    cursor: pointer;
+    font-family: "Jersey 15", sans-serif;
+    text-align: center;
+}

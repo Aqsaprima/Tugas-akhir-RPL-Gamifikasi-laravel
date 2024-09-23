@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.4rem;
+}
+img {
+    width: 8vw;
+}
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+form {
+    background: #0000009d;
+    border-radius: 20px;
+    padding: 2vh 2vw;
+}
+p {
+    margin: 0;
+}
+input[type="text"] {
+    width: 85%;
+    font-size: 15px;
+    margin-right: 0;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px white solid;
+}
+#soal {
+    width: 40vw;
+    padding: 0;
+    margin-left: 0;
+}
+#materi {
+    background: grey;
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 2px solid;
+}
+option {
+    font-size: 1rem;
+}
+#inputs {
+    background: #d9d9d99c;
+    padding: 2vh 2vw;
+    width: 32vw;
+    border-radius: 15px; 
+    justify-content: space-around;
+}
+label {
+    background: #d9d9d9;
+    color: black;
+    border-radius: 15px;
+    flex: 1;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#labels {
+    gap: 1vh;
+    padding: 2vh 0;
+}
+#cont1 {
+    gap: 1vw;
+    height: 34vh;
+}
+#sect1,
+#sect2 {
+    gap: 2vw;
+}
+input[type="submit"] {
+    border: none;
+    border-radius: 30vw;
+    background: green;
+    width: 10vw;
+    font-size: 1.4rem;
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+    cursor: pointer;
+}
+#sect2 {
+    align-items: start;
+}
+#sect3 {
+    justify-content: center;
+}
+#url {
+    color: white;
+    text-align: center;
+    width: 40vw;
+}
+form {
+    gap: 2vw;
+    padding: 8vh 4vw;
+}
+.judul {
+    margin-bottom: 5px;
+}
+.input-checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-checkbox-container input[type="text"] {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+.input-checkbox-container input[type="checkbox"] {
+    margin-left: 10px;
+}
